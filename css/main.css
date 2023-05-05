@@ -2,9 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+title {
+    text-align: center;
+}
 html {
-    background-color: #7c85e896;
+    background-color: #c0eac296;
     font-family: 'Epilogue', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -15,11 +17,13 @@ html {
     background: #ff0;
 }
 
+
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
     line-height: 2.5em;
+    background-color: rgb(183, 234, 227);
+    text-align:center;
 }
 
 h1.page-header {
@@ -33,6 +37,8 @@ main.wrapper {
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    width: 92%
+      
 }
 
 h2,h3 {
